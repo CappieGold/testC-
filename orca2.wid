@@ -6,3 +6,8 @@ CustomTextB	PreviousButton	Disable	CustomTextB_PrevArgs=""
 CustomTextB	PreviousButton	Enable	CustomTextB_PrevArgs<>""
 CustomTextB	Edit1	Hide	UseExistingRadio = 1
 CustomTextB	Edit1	Show	CreateNewRadio = 1
+
+CustomTextB	CancelButton	SpawnDialog	Cancel		0
+CustomTextB	NextButton	NewDialog	[CustomTextB_NextArgs]	CustomTextB_NextArgs<>""	1
+CustomTextB	NextButton	EndDialog	Return	CustomTextB_NextArgs=""	0
+CustomTextB	PreviousButton	NewDialog	[CustomTextB_PrevArgs]	CustomTextB_PrevArgs<>""	0
