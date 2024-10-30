@@ -1,0 +1,8 @@
+CustomTextB	ExistingUsers	Hide	CreateNewRadio = 1
+CustomTextB	ExistingUsers	Show	UseExistingRadio = 1
+CustomTextB	Edit2	Hide	UseExistingRadio = 1
+CustomTextB	Edit2	Show	CreateNewRadio = 1
+CustomTextB	PreviousButton	Disable	CustomTextB_PrevArgs=""
+CustomTextB	PreviousButton	Enable	CustomTextB_PrevArgs<>""
+CustomTextB	Edit1	Hide	UseExistingRadio = 1
+CustomTextB	Edit1	Show	CreateNewRadio = 1
